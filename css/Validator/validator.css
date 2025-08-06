@@ -9,6 +9,9 @@
             margin: 0;
         }
         .container{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
             background-color: #ffffff;
             padding: 30px;
             border-radius: 10px;
@@ -55,3 +58,13 @@
             position: relative;
             width: 100%;
         }
+        a{
+    text-decoration: none;
+    color: #888;
+    transition: all 0.3s ease;
+}
+a:hover{
+    color: #888;
+    text-decoration: underline;
+    
+}
